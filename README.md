@@ -1,1 +1,2 @@
 # Matchmaker-
+Matchmaking job web application that prompts a new user with questions related to company culture and personality. The user/jobs seeker gets a match percentage with other users(employers or job seekers) and can view their profiles and like them. The job seeker can as well view the job posts made by the employers with whom they have a match percentage. The project was developed using python web framework Django.
