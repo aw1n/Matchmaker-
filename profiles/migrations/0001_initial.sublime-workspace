@@ -1,0 +1,516 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"username"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"up",
+				"upload_location"
+			],
+			[
+				"a",
+				"a_decimal"
+			],
+			[
+				"a_",
+				"a_decimal"
+			],
+			[
+				"questions_",
+				"questions_in_common"
+			],
+			[
+				"b",
+				"b_decimal"
+			],
+			[
+				"ma",
+				"match_percentage"
+			],
+			[
+				"qu",
+				"questions_in_common"
+			],
+			[
+				"the",
+				"their_points"
+			],
+			[
+				"a_t",
+				"a_total_points"
+			],
+			[
+				"their",
+				"their_points"
+			],
+			[
+				"User",
+				"UserAnswer"
+			],
+			[
+				"question_s",
+				"question_set2"
+			],
+			[
+				"question_set",
+				"question_set1"
+			],
+			[
+				"use",
+				"user_a"
+			],
+			[
+				"num",
+				"num_question"
+			],
+			[
+				"n",
+				"new_instance"
+			],
+			[
+				"obj",
+				"obj_2"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"mac",
+				"match_decimal"
+			],
+			[
+				"get",
+				"get_match"
+			],
+			[
+				"match",
+				"match_decimal"
+			],
+			[
+				"Ma",
+				"MatchManager"
+			],
+			[
+				"user_b",
+				"user_b_total_awarded"
+			],
+			[
+				"user_a",
+				"user_a_total_awarded"
+			],
+			[
+				"total",
+				"a_total_awarded"
+			],
+			[
+				"u",
+				"useranswer_set"
+			],
+			[
+				"us",
+				"userc"
+			],
+			[
+				"user_b_a",
+				"user_b_answers"
+			],
+			[
+				"user_",
+				"user_a_answers"
+			],
+			[
+				"user_a_an",
+				"user_a_answer"
+			],
+			[
+				"ja",
+				"JamesBond001"
+			],
+			[
+				"na",
+				"n_answer"
+			],
+			[
+				"U",
+				"UserAnswer"
+			],
+			[
+				"se",
+				"sender"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"impo",
+				"importance_level"
+			],
+			[
+				"th",
+				"their_importance"
+			],
+			[
+				"their_answ",
+				"their_answer_id"
+			],
+			[
+				"im",
+				"importance_level_"
+			],
+			[
+				"their_",
+				"their_answer_id"
+			],
+			[
+				"ne",
+				"new_user_anser"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"I",
+				"important"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"que",
+				"queryset"
+			],
+			[
+				"q",
+				"question_instance"
+			],
+			[
+				"questio",
+				"question_id"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"A",
+				"action	Attr"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"T",
+				"True"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"st",
+				"styles"
+			],
+			[
+				"ur",
+				"urlpatterns"
+			],
+			[
+				"ful",
+				"full_name"
+			],
+			[
+				"contact",
+				"contact_message"
+			],
+			[
+				"f",
+				"full_name"
+			],
+			[
+				"P",
+				"print"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"clean",
+				"cleaned_data"
+			],
+			[
+				"v",
+				"ValidationError"
+			],
+			[
+				"S",
+				"SignUpForm"
+			],
+			[
+				"si",
+				"SignUp"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nesh/Desktop/matchmaker/src/questions/matching.py",
+		"/media/nesh/A86E425B6E422284/Users/nesh/Downloads/Video/Python Programming- Build Matchmaking Website + Geolocator - Udemy_111.MP4",
+		"/media/nesh/A86E425B6E422284/Users/nesh/Downloads/Video/Python Programming- Build Matchmaking Website + Geolocator - Udemy_39.MP4",
+		"/home/nesh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nesh/.local/share/Trash/files/javascript.html ",
+		"/home/nesh/Desktop/matchmaker/src/newsletter/views.py",
+		"/home/nesh/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/nesh/Desktop/matchmaker/src/matchmaker/urls.py",
+		"/home/nesh/Desktop/matchmaker/src/templates/questions/home.html",
+		"/home/nesh/Desktop/matchmaker/lib/python2.7/site-packages/django/http/response.py",
+		"/home/nesh/Desktop/matchmaker/src/templates/questions /home.html",
+		"/home/nesh/Desktop/matchmaker/src/templates/home.html",
+		"/home/nesh/Desktop/matchmaker/src/questions/home.html ",
+		"/home/nesh/Desktop/matchmaker/src/templates/navbar.html",
+		"/home/nesh/Desktop/matchmaker/src/.gitignore",
+		"/home/nesh/Desktop/matchmaker/src/matchmaker/settings/base.py",
+		"/home/nesh/Desktop/matchmaker/src/matchmaker/settings/local.py",
+		"/home/nesh/Desktop/matchmaker/src/matchmaker/settings/production.py",
+		"/home/nesh/Desktop/matchmaker/src/matchmaker/views.py",
+		"/home/nesh/Desktop/matchmaker/src/manage.py",
+		"/home/nesh/Desktop/matchmaker/src/matchmaker/wsgi.py",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static/css/navbar-static-top.css",
+		"/home/nesh/Desktop/trydjango18/src/templates/base.html",
+		"/home/nesh/Desktop/trydjango18/src/templates/home.html",
+		"/home/nesh/Desktop/trydjango18/src/templates/navbar.html",
+		"/home/nesh/Desktop/trydjango18/src/templates/registration/registration_complete.html",
+		"/home/nesh/Desktop/trydjango18/src/trydjango18/urls.py",
+		"/home/nesh/Desktop/trydjango18/src/trydjango18/settings.py",
+		"/home/nesh/Desktop/trydjango18/src/templates/forms.html",
+		"/home/nesh/Desktop/trydjango18/src/newsletter/admin.py",
+		"/home/nesh/Desktop/trydjango18/src/trydjango18/views.py",
+		"/home/nesh/Desktop/trydjango18/src/newsletter/views.py",
+		"/home/nesh/Desktop/trydjango18/src/newsletter/forms.py",
+		"/home/nesh/Desktop/trydjango18/src/templates/registration/activation_email.txt",
+		"/home/nesh/Desktop/trydjango18/src/templates/registration/activation_complete.html",
+		"/home/nesh/Desktop/trydjango18/src/trydjango18/views.py ",
+		"/home/nesh/Desktop/trydjango18/src/templates/head_css.html",
+		"/home/nesh/Desktop/trydjango18/src/newsletter/models.py",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static/css/.goutputstream-UM5SCY",
+		"/home/nesh/Desktop/trydjango18/ static_in_env/static_root/css/custom.css",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static/img/example.txt",
+		"/home/nesh/Desktop/trydjango18/src/templates/example_fluid.html",
+		"/home/nesh/Desktop/trydjango18/ static_in_env/static_root/css/navbar-static-top.css",
+		"/home/nesh/Desktop/trydjango18/src/templates/javascript.html ",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static/css/bootsrap.min.css",
+		"/home/nesh/Desktop/trydjango18/src/trydjango18.sublime-project",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static/css/bootstrap.min.css",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static /img/example.txt",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static /image/exmaple.txt ",
+		"/home/nesh/Desktop/trydjango18/src/static_in_pro/our_static /img/example.txt ",
+		"/home/nesh/Desktop/trydjango18/src/newsletter/templates /home.html ",
+		"/home/nesh/Desktop/trydjango18/src/newsletter/forms.py "
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/nesh/Desktop/matchmaker/src/",
+			"/home/nesh/Desktop/matchmaker/src ",
+			"/home/nesh/Desktop/matchmaker/src",
+			"/home/nesh/Desktop/matchmaker/src/matchmaker"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"()",
+			">\n",
+			"answer_set",
+			"trydjango18",
+			"trydjango18.wsgi",
+			"trydjango18",
+			"trydjango18.settings",
+			"trydjango18",
+			"trydjango18.settings",
+			"navbar",
+			"    <"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"matchmaker"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "0001_initial.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 139.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

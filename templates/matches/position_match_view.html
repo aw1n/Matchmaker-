@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+{{ instance }}
+
+{% for match in matches %}
+<h1>{{ match.user }}</h1>
+
+{% if match.user.profile.picture %}
+<img src='{{ match.user.profile.picture.url }}'/>
+
+{% endif %}
+{% endfor %}
+
+
+{% endblock %}

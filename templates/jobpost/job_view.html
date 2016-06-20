@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+{% block content %}
+
+<p class='lead'> Employer Name </p>{{jobpost.user}}
+<p class='lead'> Poistion Available </p>{{jobpost.position}}
+<p class='lead'> Employer Company </p>{{jobpost.employer}}
+<p class='lead'> Job Location </p>{{jobpost.location}}
+<p class='lead'> Job Description </p>{{jobpost.description}}
+<p class='lead'> Time Posted</p>{{jobpost.timestamp}}
+<p class='lead'> Starting Date </p>{{jobpost.startdate}}
+
+
+
+
+{% endblock %}

@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+{% block content %}
+
+ 
+<div class="panel panel-default">
+
+
+
+<h3>{{ profile.user }}</h3>
+<p class='lead'>Match: {{ match.get_percent }} </p>
+
+<div class='col-sm-3'>
+{% if profile.picture %}
+<img src='{{ profile.picture.url }}' class='img-responsive'/>
+{% else %}
+
+<img src='{% static "img/profile_default.jpg" %}' class='img-responsive' />
+
+{% endif %}
+</div>
+
+
+<a href="{{ profile.like_link }}" />{% if do_i_like %}Unlike{% else %}Like{% endif %}</a>
+
+
+{% if mutual_like %}
+<p class='lead'>
+You are connected! 
+</p>
+<p>
+Email: {{ profile.user.email }}
+</p>
+
+{% endif %}
+
+{% if jobs %} 
+<div class='row'>
+<div class='col-sm-7'>
+
+{% for job in jobs %}
+
+<p>{{ job.position }} in {{ job.location }} at {{ job.employer_name }}</p>
+{% endfor %}
+
+<ul class = "breadcrumb"  background: #FFF; >
+<p class='lead'>Description</p> {{ profile.Description }}
+</ul>
+<ul class = "breadcrumb"  background: #FFF; >
+
+<P class='lead'>CV attachment</P>{{ profile.CV }}
+</ul>
+<ul class = "breadcrumb"  background: #FFF; >
+
+<p class='lead'>Skills</p>{{ profile.skills}}
+</ul>
+<ul class = "breadcrumb"  background: #FFF; >
+
+<p class="lead">Project attachemnt</p>{{ profile.project }}
+</ul>
+<ul class = "breadcrumb"  background: #FFF; >
+
+<p class="lead">Project url</p>{{ profile.projecturl }}
+</ul>
+
+</div>
+</div>
+
+</div>
+
+{% endif %}
+
+{% endblock %}

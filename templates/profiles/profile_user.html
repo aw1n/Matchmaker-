@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+
+{% block content %}
+
+
+<ul class = "breadcrumb"  background: #FFF; >
+<li><a href="{% url 'profile_edit' %}">Edit my profile</a></li>
+<li><a href="{% url 'jobs_edit' %}">Edit your jobs</a></li>
+<li><a href="{% url 'job_post' %}">Add job post </a></li>
+<li><a href="{% url 'posts' %}">View Available Jobs</a></li>
+</ul>
+
+
+<h3>{{ profile.user }}</h3>
+<div class='col-sm-3'>
+
+{% if profile.picture %}
+<img src='{{ profile.picture.url }}' class='img-responsive'/>
+{% else %}
+
+<img src='{% static "img/profile_default.jpg" %}' class='img-responsive' />
+
+{% endif %}
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+
+{% if jobs %} 
+<div class='col-sm-8'>
+<ul>
+{% for job in jobs %}
+
+<p class= 'lead'<li>{{ job.position }} in {{ job.location }} at {{ job.employer_name }}</li></p>
+
+{% endfor %}
+<div class="panel panel-default">
+    <div class="panel-body"><P class='lead'>CV attachment</P>{{ profile.CV }}</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-body"><P class='lead'>Description</P>{{ profile.Description }}</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body"><p class='lead'>Skills</p>{{ profile.skills}}</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body"><p class="lead">Project attachemnt</p>{{ profile.project }}</div>
+</div>
+<div class="panel panel-default">
+
+    <div class="panel-body"><p class="lead">Project url</p><a href = "{{ profile.projecturl}}">
+</div>
+</div>
+
+</div>
+</ul>
+</div>
+</div>
+</div>
+</ul>
+
+</div>
+</div>
+
+{% else %}
+
+<p class='lead'>
+You do not currently have jobs. <a href="{% url 'job_add' %}">Add some</a>.
+</p>
+
+{% endif %}
+
+
+
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block content %}
+
+<div class="all_posts">
+
+{% if posts %}
+<h2>Posts</h2>
+<div class="item">
+
+<table class="table table-bordered">
+	<tr>
+		<th>position availabe</th>
+		<th>jobs location</th>
+		<th>job description</th>
+		<th>startdate</th>
+		<th>Employer name</th>
+	</tr>
+	{% for pos in posts %}
+	<tr>
+		<td><a href="/jobs/{{ pos.slug }}">{{pos.position}}</a></td>
+		<td>{{pos.location}}</td>
+		<td>{{pos.description}}</td>
+		<td>{{pos.start_date}}</td>
+		<td>{{pos.employer}}</td>
+	</tr>
+	{% endfor %}
+</table>
+</div>
+{% else %}
+{{blank_query }}
+{% endif %}
+</div>
+{% endblock %}

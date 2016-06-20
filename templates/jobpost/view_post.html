@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="single_post">
+	<h3>{{ single_post.position }}</h3>
+	<table class="table table-bordered">
+		<tr>
+			<th>Job Vacancy for </th>
+			<th>Company employing</th>
+			<th>Job Description</th>
+			<th>Location of the vacant job</th>
+			<th>Start date</th>
+		</tr>
+		<tr>
+		<td>{{single_post.position}}</td>
+		<td>{{single_post.employer}}</td>
+		<td>{{single_post.description}}</td>
+		<td>{{single_post.location}}</td>
+		<td>{{single_post.start_date}}</td>
+		</tr>
+	</table>
+
+ <p><a href="{% url 'apply_job' %}" target="_blank" class="btn btn-success btn-lg">Apply for this Job</a></p>
+
+
+</div>
+{% endblock %}

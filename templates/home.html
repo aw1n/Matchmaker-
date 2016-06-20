@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block head_title %}Welcome | {{ block.super }}{% endblock %}
+
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Matchmaker</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h1>Welcome to Matchmaker Job Site</h1>
+            <p>In today's world internet is the most popular way of connecting with the people. At Matchmaker we match people with potential and compatible employers. at Matchmaker everyone can be both an employer and a Jobseeker.</p>
+            <p><a href="http://127.0.0.1:8000/accounts/register/" target="_blank" class="btn btn-success btn-lg">Get started today</a></p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4">
+                <h2>Skills</h2>
+                <p>SKILLS
+                    Hate guessing games? Good news – with us, there’s no more need for them! By using data from millions of resumes and career transitions, we predict how compatible you are with a job based on your skills and background, and how likely you are to be hired for that position.</p>
+                <p><a href="http://127.0.0.1:8000/about/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+            </div>
+            <div class="col-xs-4">
+                <h2>Questionare</h2>
+                <p>Answer our questions today and get a proper match based on your prefrence. The idea is to air you with equally qualified employees and most importantly employers</p>
+                <p><a href="http://127.0.0.1:8000/about/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+            </div>
+            <div class="col-xs-4">
+                <h2>Company Culture</h2>
+                <p>Based on your Answers we match you and provide suggestions of the best employers</p>
+                <p><a href="http://127.0.0.1:8000/about/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-xs-12">
+                <footer>
+                    <p>&copy; Copyright 2016 Matchmaker /p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+{% endblock %}
